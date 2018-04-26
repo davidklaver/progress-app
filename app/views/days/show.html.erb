@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @day.date.strftime("%A, %B %d, %Y") %>
+</p>
+
+<p>
+  <strong>Shacharis:</strong>
+  <%= @day.shacharis %>
+</p>
+
+<p>
+  <strong>Mincha:</strong>
+  <%= @day.mincha %>
+</p>
+
+<p>
+  <strong>Maariv:</strong>
+  <%= @day.maariv %>
+</p>
+
+<p>
+  <strong>Learning:</strong>
+  <%= @day.learning %>
+</p>
+
+<%= link_to 'Edit', edit_day_path(@day) %> |
+<%= link_to 'Back To All Days', days_path %>

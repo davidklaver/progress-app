@@ -1,0 +1,58 @@
+// Place all the styles related to the Days controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-color: lightblue;
+}
+
+* {
+	text-align: center;
+}
+
+table {
+	margin-left: 50px;
+}
+
+th {
+	font-size: 24px;
+}
+
+
+label, td {
+	font-size: 18px;
+	color: darkblue;
+}
+
+th, td {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	background-color: white;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+th:last-of-type {
+	background-color: lightblue;
+	border: none;
+}
+
+.button, .actions input {
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #eee;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px #444;
+}
+
+/*td:last-child {
+	border-radius: 0 25px 25px 0;
+}*/
+
+input {
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
